@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: simple-flask
-        image: IMAGE_TAG
+        image: hub.docker.com/kelamrani/simple-flask:latest
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false
